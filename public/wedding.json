@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/KXn25z1/celebration-hall-with-full-guests.jpg",
+        "name": "Wedding",
+        "title": "Love's Elegance: Wedding Card Design",
+        "description": "Embrace the essence of timeless love with our 'Elegant Harmony' wedding card design. This beautifully crafted card exudes sophistication and charm, setting the perfect tone for your special day. With intricate details, delicate fonts, and a classic color palette, it's a reflection of your enduring love story. Share your joy and invite your loved ones to witness this unforgettable journey with a card that speaks volumes of your love and commitment. 'Elegant Harmony' - where tradition meets elegance, and love meets forever.",
+        "price": 19.99
+      },
+      {
+        "id": 2,
+        "image": "https://i.ibb.co/r7KtsPW/16390049-5737962.jpg",
+        "name": "Invitation Template",
+        "title": "Timeless Elegance: Wedding Invitation Template",
+        "description": "Announce your love story with grace and sophistication using our 'Timeless Elegance' wedding invitation template. This exquisitely designed template blends classic aesthetics with modern simplicity, creating a timeless and refined invitation that perfectly sets the stage for your special day. With customizable elements, you can personalize every detail to reflect your unique style and love story. Share the joy of your upcoming celebration with a beautifully crafted invitation that captures the essence of your love and the promise of a beautiful future together. 'Timeless Elegance'  where your love story begins in style.",
+        "price": 49.99
+      },
+      {
+        "id": 3,
+        "image": "https://i.ibb.co/hmbjGmb/images.jpg",
+        "name": "Videography",
+        "title": "Cinematic Storytelling: Professional Videography Services",
+        "description": "A powerful smartphone with a stunning display.",
+        "price": 599.99
+      },
+      {
+        "id": 4,
+        "image": "https://i.ibb.co/sp4p0Yb/male-photographer-looking-camera-screen.jpg",
+        "name": "Photographer",
+        "title": "Captured Moments: Professional Photography Services",
+        "description": "Unlock the beauty of life's fleeting moments with our professional photography services at 'Captured Moments.' Our team of skilled photographers is dedicated to preserving your cherished memories with artistry and precision. Whether it's your wedding day, a family portrait, a corporate event, or any special occasion, we are committed to capturing the essence of the moment. With a keen eye for detail and a passion for storytelling through visuals, we transform ordinary scenes into extraordinary images. Trust us to document your journey, and let your memories live on as timeless works of art. 'Captured Moments' – where every click tells a story.",
+        "price": 129.99
+      },
+      {
+        "id": 5,
+        "image": "https://i.ibb.co/dgGkZP1/newlyweds-dancing-their-wedding.jpg",
+        "name": "Dance Lessions",
+        "title": "Dance Magic Academy: Unleash Your Inner Dancer",
+        "description": "At 'Dance Magic Academy,' we invite you to embark on a captivating journey into the world of dance. Our experienced instructors are passionate about helping you discover your rhythm and express yourself through movement. Whether you're a beginner taking your first steps or an experienced dancer looking to refine your skills, our lessons cater to all levels. We offer a variety of dance styles, from classical ballet to contemporary hip-hop, ensuring there's something for everyone. Join us, and let the music guide your feet as you learn, grow, and experience the joy of dance. 'Dance Magic Academy'  where every step is a moment of magic.",
+        "price": 999.99
+      },
+      {
+        "id": 6,
+        "image": "https://i.ibb.co/Sm0f8kk/event-manager-writing-paper-banquet-hall.jpg",
+        "name": "wedding event management ",
+        "title": "Wedding Bliss Creations: Crafting Your Perfect Day",
+        "description": "Welcome to 'Wedding Bliss Creations,' where we transform dreams into reality. Our dedicated team of event planners specializes in curating unforgettable wedding experiences that reflect your unique love story. From intimate gatherings to grand celebrations, we bring your vision to life with meticulous planning, creative flair, and attention to detail. Leave the stress behind and embrace the joy of your special day, knowing that every aspect, from venue selection to decor and entertainment, is in expert hands. Let us be your partners in creating memories that will last a lifetime. 'Wedding Bliss Creations' – where your happily ever after begins."        ,
+        "price": 349.99
+      },
+      {
+        "id": 7,
+        "image": "https://i.ibb.co/vD3hKpN/bride-groom-cutting-wedding-cake.jpg",
+        "name": "CakeCraft Weddings",
+        "title":"Sweet Confections Delight: Wedding Cake Management",
+        "description": "Indulge in the sweetest moments of your wedding day with 'Sweet Confections Delight,' your trusted partner in wedding cake management. We understand that your cake isn't just a dessert; it's a masterpiece that symbolizes your love and joy. Our team of skilled pastry chefs and cake designers are dedicated to creating edible works of art that not only delight the taste buds but also leave a lasting impression on your guests. From elegant and traditional designs to avant-garde creations, we tailor our cakes to your vision and taste preferences. Let us take care of the cake, so you can savor every moment of your special day. 'Sweet Confections Delight'  where love tastes sweeter.",
+        "price": 559.99
+      },
+      {
+        "id": 8,
+        "image": "https://i.ibb.co/QpcShTR/dance.jpg",
+        "name": "Dance of Love Events",
+        "title": "Creating Magical Moments: Dance of Love Wedding Dance Events",
+        "description":"At Dance of Love Events, we specialize in curating magical and unforgettable wedding dance events. We understand that the first dance as a married couple is a cherished moment, and we're here to make it truly special. Our team of experienced choreographers and event planners work closely with you to create a dance performance that reflects your love story and captures the hearts of your guests. Whether you want a classic waltz, a lively salsa, or a unique fusion of styles, we'll choreograph a dance that's as unique as your love. Let us choreograph the perfect dance that marks the beginning of your beautiful journey together. Dance of Love Events – where your love story takes center stage.",
+        "price": 149.99
+      },
+      {
+        "id": 9,
+        "image": "https://i.ibb.co/CVMDK7j/FACEBOOK2-FBLOG-PROMO-21.png",
+        "name": "Eternal Elegance Bridal Boutique",
+        "title": "Discover Your Dream Gown at Eternal Elegance Bridal Boutique",
+        "description": "At Eternal Elegance Bridal Boutique, we are dedicated to helping brides-to-be find the wedding dress of their dreams. Our exquisite collection features a wide range of styles, from timeless classics to contemporary designs, ensuring that every bride can find the perfect gown that reflects her individual style and captures her unique beauty. Our experienced bridal consultants provide personalized guidance and impeccable service, making your gown shopping experience a cherished memory. Your wedding dress is more than just a garment; it's a symbol of your love story. Let us be a part of your journey as you choose the gown that will make you feel radiant on your special day. Eternal Elegance Bridal Boutique  where your eternal love meets timeless style."       ,
+        "price": 1000.00
+      }
+      
+]
