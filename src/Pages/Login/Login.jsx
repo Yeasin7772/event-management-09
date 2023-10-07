@@ -9,7 +9,7 @@ const Login = () => {
 
     const [match, setMatch] = useState('')
 
-    const { login } = useContext(AuthContext)
+    const { login, googleLogin } = useContext(AuthContext)
     const location = useLocation()
     const navigate = useNavigate()
     console.log('this is location', location);
@@ -64,13 +64,13 @@ const Login = () => {
                         </form>
 
                         <div className="text-center">
-                        {
+                            {
                                 match && <p className="text-red-500">{match}</p>
                             }
                         </div>
 
                         <div className="">
-                            <button className="btn w-full">
+                            <button onClick={() => googleLogin()} className="btn w-full">
                                 <FaGoogle className="text-blue-700"></FaGoogle>
                                 Login with Google
                             </button>

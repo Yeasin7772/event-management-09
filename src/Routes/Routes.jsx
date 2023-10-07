@@ -6,6 +6,8 @@ import WeddingDetails from "../Pages/WeddingDetalis/WeddingDetails";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import PrivaterRoute from "./PrivaterRoute";
+import Blog from "../Pages/Blog/Blog";
+import StoryPage from "../Pages/Story/StoryPage";
 
 const Routes = createBrowserRouter([
     {
@@ -23,6 +25,16 @@ const Routes = createBrowserRouter([
                 path:'/wedding/:id',
                 element:<PrivaterRoute><WeddingDetails></WeddingDetails></PrivaterRoute>,
                 loader:()=> fetch('/wedding.json')
+            },
+            {
+                path:'/blog',
+                element:<PrivaterRoute><Blog></Blog></PrivaterRoute>
+
+            },
+            {
+                path:'/pages',
+                element:<PrivaterRoute><StoryPage></StoryPage></PrivaterRoute>
+
             },
             {
                 path:'/login',

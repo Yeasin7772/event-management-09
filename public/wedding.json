@@ -8,32 +8,18 @@
         "description": "Announce your love story with grace and sophistication using our 'Timeless Elegance' wedding invitation template. This exquisitely designed template blends classic aesthetics with modern simplicity, creating a timeless and refined invitation that perfectly sets the stage for your special day. With customizable elements, you can personalize every detail to reflect your unique style and love story. Share the joy of your upcoming celebration with a beautifully crafted invitation that captures the essence of your love and the promise of a beautiful future together. 'Timeless Elegance'  where your love story begins in style.",
         "price": 49.99
       },
+    
       {
         "id": 2,
-        "image": "https://i.ibb.co/CVMDK7j/FACEBOOK2-FBLOG-PROMO-21.png",
-        "name": "Eternal Elegance Bridal Boutique",
-        "title": "Discover Your Dream Gown at Eternal Elegance Bridal Boutique",
-        "description": "At Eternal Elegance Bridal Boutique, we are dedicated to helping brides-to-be find the wedding dress of their dreams. Our exquisite collection features a wide range of styles, from timeless classics to contemporary designs, ensuring that every bride can find the perfect gown that reflects her individual style and captures her unique beauty. Our experienced bridal consultants provide personalized guidance and impeccable service, making your gown shopping experience a cherished memory. Your wedding dress is more than just a garment; it's a symbol of your love story. Let us be a part of your journey as you choose the gown that will make you feel radiant on your special day. Eternal Elegance Bridal Boutique  where your eternal love meets timeless style."       ,
-        "price": 1000.00
-      },
-      {
-        "id": 3,
         "image": "https://i.ibb.co/sp4p0Yb/male-photographer-looking-camera-screen.jpg",
         "name": "Photographer",
         "title": "Captured Moments: Professional Photography Services",
         "description": "Unlock the beauty of life's fleeting moments with our professional photography services at 'Captured Moments.' Our team of skilled photographers is dedicated to preserving your cherished memories with artistry and precision. Whether it's your wedding day, a family portrait, a corporate event, or any special occasion, we are committed to capturing the essence of the moment. With a keen eye for detail and a passion for storytelling through visuals, we transform ordinary scenes into extraordinary images. Trust us to document your journey, and let your memories live on as timeless works of art. 'Captured Moments' – where every click tells a story.",
         "price": 129.99
       },
+    
       {
-        "id": 4,
-        "image": "https://i.ibb.co/dgGkZP1/newlyweds-dancing-their-wedding.jpg",
-        "name": "Dance Lessions",
-        "title": "Dance Magic Academy: Unleash Your Inner Dancer",
-        "description": "At 'Dance Magic Academy,' we invite you to embark on a captivating journey into the world of dance. Our experienced instructors are passionate about helping you discover your rhythm and express yourself through movement. Whether you're a beginner taking your first steps or an experienced dancer looking to refine your skills, our lessons cater to all levels. We offer a variety of dance styles, from classical ballet to contemporary hip-hop, ensuring there's something for everyone. Join us, and let the music guide your feet as you learn, grow, and experience the joy of dance. 'Dance Magic Academy'  where every step is a moment of magic.",
-        "price": 999.99
-      },
-      {
-        "id": 5,
+        "id": 3,
         "image": "https://i.ibb.co/Sm0f8kk/event-manager-writing-paper-banquet-hall.jpg",
         "name": "wedding event management ",
         "title": "Wedding Bliss Creations: Crafting Your Perfect Day",
@@ -41,7 +27,7 @@
         "price": 349.99
       },
       {
-        "id": 6,
+        "id": 4,
         "image": "https://i.ibb.co/vD3hKpN/bride-groom-cutting-wedding-cake.jpg",
         "name": "CakeCraft Weddings",
         "title":"Sweet Confections Delight: Wedding Cake Management",
@@ -49,7 +35,7 @@
         "price": 559.99
       },
       {
-        "id": 7,
+        "id": 5,
         "image": "https://i.ibb.co/QpcShTR/dance.jpg",
         "name": "Dance of Love Events",
         "title": "Creating Magical Moments: Dance of Love Wedding Dance Events",
@@ -57,11 +43,11 @@
         "price": 149.99
       },
       {
-        "id": 8,
-        "image": "https://i.ibb.co/CVMDK7j/FACEBOOK2-FBLOG-PROMO-21.png",
-        "name": "Eternal Elegance Bridal Boutique",
-        "title": "Discover Your Dream Gown at Eternal Elegance Bridal Boutique",
-        "description": "At Eternal Elegance Bridal Boutique, we are dedicated to helping brides-to-be find the wedding dress of their dreams. Our exquisite collection features a wide range of styles, from timeless classics to contemporary designs, ensuring that every bride can find the perfect gown that reflects her individual style and captures her unique beauty. Our experienced bridal consultants provide personalized guidance and impeccable service, making your gown shopping experience a cherished memory. Your wedding dress is more than just a garment; it's a symbol of your love story. Let us be a part of your journey as you choose the gown that will make you feel radiant on your special day. Eternal Elegance Bridal Boutique  where your eternal love meets timeless style."       ,
+        "id": 6,
+        "image": "https://onelove.catanisthemes.com/wp-content/uploads/2017/02/img-service_13.jpg",
+        "name": "Videographers",
+        "title": "Cinematic Memories: Event Videographers Services",
+        "description": "Capture the magic of your special moments with our professional event videography services. At Cinematic Memories, we specialize in turning your events into unforgettable stories on film. Whether it's a wedding, corporate event, birthday party, or any other occasion, our team of skilled videographers is dedicated to creating stunning and timeless videos that you'll cherish forever. With state-of-the-art equipment and a passion for storytelling, we bring your event to life through the lens. Let us be a part of your journey and transform your moments into cinematic masterpieces. Contact us today to book your videography experience with Cinematic Memories."       ,
         "price": 1000.00
       }
       
