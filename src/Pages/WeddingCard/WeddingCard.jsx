@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 const WeddingCard = ({ wedding }) => {
     const { id, image, title, name, price } = wedding || {}
-    console.log(wedding);
+   // console.log(wedding);
     return (
         <div>
-            <div className="relative flex   flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
+            <div className="relative flex grow   flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
                 <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
-                    <img className="w-[520px] h-[300px]"
+                    <img className=" h-[300px]"
                         src={image}
                         alt="ui/ux review check"
                     />

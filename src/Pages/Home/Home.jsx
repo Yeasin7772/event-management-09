@@ -10,12 +10,12 @@ import image3 from '../../assets/img-portfolio03.jpg'
 import image4 from '../../assets/img-portfolio_04.jpg'
 import image5 from '../../assets/img-portfolio_05.jpg'
 import image6 from '../../assets/img-portfolio_06.jpg'
-import { FaTwitterSquare,FaInstagram } from 'react-icons/fa';
+import { FaTwitterSquare,FaInstagram,FaVoteYea } from 'react-icons/fa';
 
 
 const Home = () => {
     const weddings = useLoaderData()
-    console.log(weddings);
+    //console.log(weddings);
     return (
         <div>
             <Navbar></Navbar>
@@ -45,9 +45,9 @@ const Home = () => {
                         <p className="text-xl font-bold">Maecenas et lorem sit amet arcu commodo ornare.
                             Sed ut neque eget velit suscipit condimentum. Vivamus placerat volutpat felis, eget augue.</p>
                         <div className="space-y-3">
-                            <p ><strong>Step 1:</strong>  <span className="text-[#9F9F9F]">Bring your wedding ideas to life with our incredible inspiration.</span></p>
-                            <p className="font-medium"> <strong>Step 2:</strong> <span className="text-[#9F9F9F]">Our planning tools will be there to help you every step of the way.</span></p>
-                            <p className="font-medium"><strong>Step 3:</strong> <span className="text-[#9F9F9F]"> Create your wedding team from over 6,000 venues & suppliers.</span>
+                            <p  className="flex gap-2 items-center"> <span className="text-[#E527B2]"><FaVoteYea/></span> <strong>Step 1:</strong>  <span className="text-[#9F9F9F]">Bring your wedding ideas to life with our incredible inspiration.</span></p>
+                            <p className="flex gap-2 items-center"> <span className="text-[#E527B2]"><FaVoteYea/></span> <strong>Step 2:</strong> <span className="text-[#9F9F9F]">Our planning tools will be there to help you every step of the way.</span></p>
+                            <p  className="flex gap-2 items-center"> <span className="text-[#E527B2]"><FaVoteYea/></span><strong>Step 3:</strong> <span className="text-[#9F9F9F]"> Create your wedding team from over 6,000 venues & suppliers.</span>
                             </p>
                             <button className=" mt-3 border-2 px-6 py-2 rounded-md hover:bg-[#f78da7] text-xl text-[#abb8c3]  ">Book Now</button>
 
