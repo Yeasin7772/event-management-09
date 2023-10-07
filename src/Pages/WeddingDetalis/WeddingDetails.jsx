@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import WeddingDetalisCard from "./WeddingDetalisCard";
+import Navbar from "../../components/Navbar/Navbar";
 
 const WeddingDetails = () => {
     const [wedding, setWedding] = useState()
@@ -20,6 +21,8 @@ const WeddingDetails = () => {
 
     return (
         <div>
+
+            <Navbar></Navbar>
 
             <div className="flex justify-center items-center mt-10">
                 {

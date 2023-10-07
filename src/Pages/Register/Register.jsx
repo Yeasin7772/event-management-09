@@ -8,7 +8,7 @@ const Register = () => {
     const [registerError, setRegisterError] = useState('')
     const [registerSuccess, setRegisterSuccess] = useState('')
 
-    const { createUser } = useContext(AuthContext)
+    const { createUser,handleUpdateProfile } = useContext(AuthContext)
 
     const handelRegister = (e) => {
         e.preventDefault()
@@ -29,11 +29,17 @@ const Register = () => {
             return
         }
 
-
+        
         createUser(email, password)
-            .then(result => {
-                console.log(result.user);
-                setRegisterSuccess('user created successfully.')
+        .then(result => {
+            console.log(result.user);
+            handleUpdateProfile(name)
+                .then(() => {
+                    setRegisterSuccess('user created successfully.')
+                   
+
+                })
+               
             })
             .catch(error => {
                 console.error(error);

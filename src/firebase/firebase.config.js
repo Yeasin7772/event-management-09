@@ -5,13 +5,15 @@ import { getAuth } from "firebase/auth";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+
+//console.log('inside',import.meta.env.VITE_PASS);
 const firebaseConfig = {
-  apiKey: "AIzaSyCCg-hoB2FbvVBhLQwlEJa6tJMQ1d3_l0Y",
-  authDomain: "wedding-planning-auth.firebaseapp.com",
-  projectId: "wedding-planning-auth",
-  storageBucket: "wedding-planning-auth.appspot.com",
-  messagingSenderId: "954187562984",
-  appId: "1:954187562984:web:6d1601d398acd3e97dee5d"
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTHDOMIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAINGSENDERID,
+  appId: import.meta.env.VITE_APPID
 };
 
 // Initialize Firebase

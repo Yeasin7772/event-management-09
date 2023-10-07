@@ -7,7 +7,7 @@ const WeddingDetalisCard = ({ wedding }) => {
     return (
 
         <div>
-            <Navbar></Navbar>
+            
             <div className="mt-10">
                
 
