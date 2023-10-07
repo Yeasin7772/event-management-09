@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 
 const WeddingDetalisCard = ({ wedding }) => {
-    const { image, description } = wedding || {}
+    const { image, description,title } = wedding || {}
     console.log(wedding);
     return (
 
@@ -21,12 +22,12 @@ const WeddingDetalisCard = ({ wedding }) => {
                             startups
                         </h6>
                         <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                            Service this week
+                         {title}
                         </h4>
                         <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
                             {description}
                         </p>
-                        <a className="inline-block" href="#">
+                        <Link to='/' className="inline-block" >
                             <button
                                 className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                                 type="button"
@@ -48,7 +49,7 @@ const WeddingDetalisCard = ({ wedding }) => {
                                     ></path>
                                 </svg>
                             </button>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 

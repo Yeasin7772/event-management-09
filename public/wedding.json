@@ -1,14 +1,7 @@
 [
-    {
-        "id": 1,
-        "image": "https://i.ibb.co/KXn25z1/celebration-hall-with-full-guests.jpg",
-        "name": "Wedding",
-        "title": "Love's Elegance: Wedding Card Design",
-        "description": "Embrace the essence of timeless love with our 'Elegant Harmony' wedding card design. This beautifully crafted card exudes sophistication and charm, setting the perfect tone for your special day. With intricate details, delicate fonts, and a classic color palette, it's a reflection of your enduring love story. Share your joy and invite your loved ones to witness this unforgettable journey with a card that speaks volumes of your love and commitment. 'Elegant Harmony' - where tradition meets elegance, and love meets forever.",
-        "price": 19.99
-      },
+   
       {
-        "id": 2,
+        "id": 1,
         "image": "https://i.ibb.co/r7KtsPW/16390049-5737962.jpg",
         "name": "Invitation Template",
         "title": "Timeless Elegance: Wedding Invitation Template",
@@ -16,15 +9,15 @@
         "price": 49.99
       },
       {
-        "id": 3,
-        "image": "https://i.ibb.co/hmbjGmb/images.jpg",
-        "name": "Videography",
-        "title": "Cinematic Storytelling: Professional Videography Services",
-        "description": "Capture every precious moment of your special day with our expert wedding videography service. Our team of skilled professionals will beautifully document your wedding, creating a cinematic masterpiece that you'll cherish forever. From the emotional vows to the joyous celebrations, we'll ensure every moment is captured with precision and artistry. Trust us to tell your unique love story through the lens, providing you with a timeless keepsake to relive your wedding day again and again. Choose us for a wedding videography experience that goes beyond recording moments – it encapsulates the essence of your love story.",
-        "price": 599.99
+        "id": 2,
+        "image": "https://i.ibb.co/CVMDK7j/FACEBOOK2-FBLOG-PROMO-21.png",
+        "name": "Eternal Elegance Bridal Boutique",
+        "title": "Discover Your Dream Gown at Eternal Elegance Bridal Boutique",
+        "description": "At Eternal Elegance Bridal Boutique, we are dedicated to helping brides-to-be find the wedding dress of their dreams. Our exquisite collection features a wide range of styles, from timeless classics to contemporary designs, ensuring that every bride can find the perfect gown that reflects her individual style and captures her unique beauty. Our experienced bridal consultants provide personalized guidance and impeccable service, making your gown shopping experience a cherished memory. Your wedding dress is more than just a garment; it's a symbol of your love story. Let us be a part of your journey as you choose the gown that will make you feel radiant on your special day. Eternal Elegance Bridal Boutique  where your eternal love meets timeless style."       ,
+        "price": 1000.00
       },
       {
-        "id": 4,
+        "id": 3,
         "image": "https://i.ibb.co/sp4p0Yb/male-photographer-looking-camera-screen.jpg",
         "name": "Photographer",
         "title": "Captured Moments: Professional Photography Services",
@@ -32,7 +25,7 @@
         "price": 129.99
       },
       {
-        "id": 5,
+        "id": 4,
         "image": "https://i.ibb.co/dgGkZP1/newlyweds-dancing-their-wedding.jpg",
         "name": "Dance Lessions",
         "title": "Dance Magic Academy: Unleash Your Inner Dancer",
@@ -40,7 +33,7 @@
         "price": 999.99
       },
       {
-        "id": 6,
+        "id": 5,
         "image": "https://i.ibb.co/Sm0f8kk/event-manager-writing-paper-banquet-hall.jpg",
         "name": "wedding event management ",
         "title": "Wedding Bliss Creations: Crafting Your Perfect Day",
@@ -48,7 +41,7 @@
         "price": 349.99
       },
       {
-        "id": 7,
+        "id": 6,
         "image": "https://i.ibb.co/vD3hKpN/bride-groom-cutting-wedding-cake.jpg",
         "name": "CakeCraft Weddings",
         "title":"Sweet Confections Delight: Wedding Cake Management",
@@ -56,7 +49,7 @@
         "price": 559.99
       },
       {
-        "id": 8,
+        "id": 7,
         "image": "https://i.ibb.co/QpcShTR/dance.jpg",
         "name": "Dance of Love Events",
         "title": "Creating Magical Moments: Dance of Love Wedding Dance Events",
@@ -64,7 +57,7 @@
         "price": 149.99
       },
       {
-        "id": 9,
+        "id": 8,
         "image": "https://i.ibb.co/CVMDK7j/FACEBOOK2-FBLOG-PROMO-21.png",
         "name": "Eternal Elegance Bridal Boutique",
         "title": "Discover Your Dream Gown at Eternal Elegance Bridal Boutique",

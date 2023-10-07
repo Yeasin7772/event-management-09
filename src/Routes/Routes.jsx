@@ -3,6 +3,9 @@ import Root from "../Root/Root";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Home from "../Pages/Home/Home";
 import WeddingDetails from "../Pages/WeddingDetalis/WeddingDetails";
+import Login from "../Pages/Login/Login";
+import Register from "../Pages/Register/Register";
+import PrivaterRoute from "./PrivaterRoute";
 
 const Routes = createBrowserRouter([
     {
@@ -18,8 +21,16 @@ const Routes = createBrowserRouter([
             },
             {
                 path:'/wedding/:id',
-                element:<WeddingDetails></WeddingDetails>,
+                element:<PrivaterRoute><WeddingDetails></WeddingDetails></PrivaterRoute>,
                 loader:()=> fetch('/wedding.json')
+            },
+            {
+                path:'/login',
+                element:<Login></Login>
+            },
+            {
+                path:'/register',
+                element:<Register></Register>
             }
         ]
 
