@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { FaGoogle } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
@@ -7,10 +7,12 @@ import Navbar from "../../components/Navbar/Navbar";
 
 const Login = () => {
 
+    const [match, setMatch] = useState('')
+
     const { login } = useContext(AuthContext)
     const location = useLocation()
     const navigate = useNavigate()
-    console.log('this is location',location);
+    console.log('this is location', location);
 
 
     const handelLogin = (e) => {
@@ -25,6 +27,7 @@ const Login = () => {
             })
             .catch(error => {
                 console.error(error);
+                setMatch('password do no match')
             })
     }
     return (
@@ -60,9 +63,15 @@ const Login = () => {
                             <p>Do not Have An Account ? <Link className="text-[#F75B5F]" to='/register'>Register</Link></p>
                         </form>
 
+                        <div className="text-center">
+                        {
+                                match && <p className="text-red-500">{match}</p>
+                            }
+                        </div>
+
                         <div className="">
                             <button className="btn w-full">
-                                <FaGoogle></FaGoogle>
+                                <FaGoogle className="text-blue-700"></FaGoogle>
                                 Login with Google
                             </button>
                         </div>
