@@ -51,7 +51,7 @@ const Register = () => {
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left">
-                        <h1 className="text-5xl font-bold">Login now!</h1>
+                        <h1 className="text-5xl font-bold">Register Here!</h1>
                         <p className="py-6">At One love we are delighted to have you back! Access your account quickly and securely through our user-friendly login page. Whether you're a returning member or a first-time visitor, our login process is designed to make your experience as smooth as possible.</p>
                     </div>
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">

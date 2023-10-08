@@ -70,7 +70,7 @@ const Login = () => {
                         </div>
 
                         <div className="">
-                            <button onClick={() => googleLogin()} className="btn w-full">
+                            <button  onClick={() => googleLogin()} className="btn w-full">
                                 <FaGoogle className="text-blue-700"></FaGoogle>
                                 Login with Google
                             </button>
