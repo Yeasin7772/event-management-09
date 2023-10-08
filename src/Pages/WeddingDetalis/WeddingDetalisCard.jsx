@@ -11,8 +11,8 @@ const WeddingDetalisCard = ({ wedding }) => {
             <div className="mt-10">
                
 
-                <div className="card card-compact w-96 bg-base-100 shadow-xl">
-                    <figure><img src={image} alt="Shoes" /></figure>
+                <div className="card card-compact w-[300px] md:w-96  bg-base-100 shadow-xl">
+                    <figure><img className="w-[300px] md:w-96" src={image} alt="Shoes" /></figure>
                     <div className="card-body">
 
                         <p>{description}</p>

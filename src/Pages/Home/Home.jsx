@@ -40,7 +40,7 @@ const Home = () => {
             </div>
             <section className="mt-20 mb-20">
                 <div className="sm:flex-row md:flex justify-between mt-5 mb-5">
-                    <div className="space-y-6">
+                    <div className="space-y-6" data-aos="fade-right">
                         <h1 className="text-3xl font-semibold">Plan Your Wedding With 3 Steps</h1>
                         <p className="text-xl font-bold">Maecenas et lorem sit amet arcu commodo ornare.
                             Sed ut neque eget velit suscipit condimentum. Vivamus placerat volutpat felis, eget augue.</p>
@@ -54,10 +54,13 @@ const Home = () => {
                         </div>
 
                     </div>
+                    <img data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500" className="w-[500px]" src={planning} alt="" />
 
-                    <img className="w-[500px]" src={planning} alt="" />
 
-                    <div>
+                    <div >
+
 
                     </div>
                 </div>
@@ -67,11 +70,13 @@ const Home = () => {
                 <div className="text-center mb-10 ">
                     <h1 className="text-4xl font-semibold text-[#E527B2]">Our Amazing Work</h1>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-10" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
 
                     {/* card 01 */}
 
-                    <div className="card  bg-base-100 shadow-xl">
+                    <div className="card  bg-base-100 shadow-xl" >
                         <figure><img className="h-[300px]" src={image1} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">

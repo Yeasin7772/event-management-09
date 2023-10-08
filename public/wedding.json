@@ -2,52 +2,52 @@
    
       {
         "id": 1,
-        "image": "https://i.ibb.co/r7KtsPW/16390049-5737962.jpg",
-        "name": "Invitation Template",
-        "title": "Timeless Elegance: Wedding Invitation Template",
-        "description": "Announce your love story with grace and sophistication using our 'Timeless Elegance' wedding invitation template. This exquisitely designed template blends classic aesthetics with modern simplicity, creating a timeless and refined invitation that perfectly sets the stage for your special day. With customizable elements, you can personalize every detail to reflect your unique style and love story. Share the joy of your upcoming celebration with a beautifully crafted invitation that captures the essence of your love and the promise of a beautiful future together. 'Timeless Elegance'  where your love story begins in style.",
+        "image": "https://i.ibb.co/JyNJvSY/marital-problems.jpg",
+        "name": "Pre-Marital Counseling",
+        "title": "Strengthen your relationship before marriage with our expert counseling.",
+        "description": " Our Pre-Marital Counseling service offers couples the opportunity to strengthen their relationship before taking the leap into marriage. Our experienced counselors provide a safe and supportive environment for you to explore important topics, improve communication, and build a solid foundation for your lifelong journey together. Through personalized sessions, you'll gain valuable insights and practical skills to navigate the joys and challenges of married life. Invest in your future together with pre-marital counseling and ensure a happy and harmonious marriage.",
         "price": 49.99
       },
     
       {
         "id": 2,
-        "image": "https://i.ibb.co/sp4p0Yb/male-photographer-looking-camera-screen.jpg",
-        "name": "Photographer",
-        "title": "Captured Moments: Professional Photography Services",
-        "description": "Unlock the beauty of life's fleeting moments with our professional photography services at 'Captured Moments.' Our team of skilled photographers is dedicated to preserving your cherished memories with artistry and precision. Whether it's your wedding day, a family portrait, a corporate event, or any special occasion, we are committed to capturing the essence of the moment. With a keen eye for detail and a passion for storytelling through visuals, we transform ordinary scenes into extraordinary images. Trust us to document your journey, and let your memories live on as timeless works of art. 'Captured Moments' – where every click tells a story.",
+        "image": "https://i.ibb.co/c3MMMNW/wedding-archway-backyard-happy-wedding-couple-outdoors-before-wedding-ceremony.jpg",
+        "name": "Wedding Planning",
+        "title": "Enjoy a stress-free wedding planning experience.",
+        "description": "Experience stress-free wedding planning with our comprehensive Wedding Planning Services.Our team of experts is dedicated to turning your dream wedding into a reality. From selecting the perfect venue and designing stunning decor to coordinating vendors and managing logistics, we handle every detail, leaving you free to enjoy your special day without worries. Trust us to create a seamless and memorable wedding experience tailored to your unique vision and style.",
         "price": 129.99
       },
     
       {
         "id": 3,
-        "image": "https://i.ibb.co/Sm0f8kk/event-manager-writing-paper-banquet-hall.jpg",
-        "name": "wedding event management ",
-        "title": "Wedding Bliss Creations: Crafting Your Perfect Day",
-        "description": "Welcome to 'Wedding Bliss Creations,' where we transform dreams into reality. Our dedicated team of event planners specializes in curating unforgettable wedding experiences that reflect your unique love story. From intimate gatherings to grand celebrations, we bring your vision to life with meticulous planning, creative flair, and attention to detail. Leave the stress behind and embrace the joy of your special day, knowing that every aspect, from venue selection to decor and entertainment, is in expert hands. Let us be your partners in creating memories that will last a lifetime. 'Wedding Bliss Creations' – where your happily ever after begins."        ,
+        "image": "https://i.ibb.co/1ZsMFMM/speaker-business-meeting-conference-hall-business-entrepreneurship-concept.jpg",
+        "name": "Marriage Workshops Seminars ",
+        "title": "Enrich your relationship with interactive workshops. Learn communication",
+        "description": "Join our engaging Marriage Workshops and Seminars to enrich your relationship and deepen your connection with your partner. These interactive sessions are designed to equip couples with effective communication strategies, conflict resolution skills, and tools to enhance intimacy. Led by experienced facilitators, you'll learn and grow together, fostering a stronger, more fulfilling bond. Connect with like-minded couples and invest in the future of your marriage through our empowering workshops.",
         "price": 349.99
       },
       {
         "id": 4,
-        "image": "https://i.ibb.co/vD3hKpN/bride-groom-cutting-wedding-cake.jpg",
-        "name": "CakeCraft Weddings",
-        "title":"Sweet Confections Delight: Wedding Cake Management",
-        "description": "Indulge in the sweetest moments of your wedding day with 'Sweet Confections Delight,' your trusted partner in wedding cake management. We understand that your cake isn't just a dessert; it's a masterpiece that symbolizes your love and joy. Our team of skilled pastry chefs and cake designers are dedicated to creating edible works of art that not only delight the taste buds but also leave a lasting impression on your guests. From elegant and traditional designs to avant-garde creations, we tailor our cakes to your vision and taste preferences. Let us take care of the cake, so you can savor every moment of your special day. 'Sweet Confections Delight'  where love tastes sweeter.",
+        "image": "https://i.ibb.co/ncBw2Mv/18307789-5945273.jpg",
+        "name": " Online Relationship Resources",
+        "title":"Access valuable articles, videos, and quizzes to enhance your relationship",
+        "description": " Access a treasure trove of valuable insights and guidance with our Online Relationship Resources. Our extensive collection of articles, videos, quizzes, and expert advice covers a wide range of topics, including effective communication, financial planning, and maintaining romance in your marriage. Whether you're looking to enhance your relationship or tackle specific challenges, our online resources are available 24/7 to support your journey toward a happier, healthier marriage.",
         "price": 559.99
       },
       {
         "id": 5,
-        "image": "https://i.ibb.co/QpcShTR/dance.jpg",
-        "name": "Dance of Love Events",
-        "title": "Creating Magical Moments: Dance of Love Wedding Dance Events",
-        "description":"At Dance of Love Events, we specialize in curating magical and unforgettable wedding dance events. We understand that the first dance as a married couple is a cherished moment, and we're here to make it truly special. Our team of experienced choreographers and event planners work closely with you to create a dance performance that reflects your love story and captures the hearts of your guests. Whether you want a classic waltz, a lively salsa, or a unique fusion of styles, we'll choreograph a dance that's as unique as your love. Let us choreograph the perfect dance that marks the beginning of your beautiful journey together. Dance of Love Events – where your love story takes center stage.",
+        "image": "https://i.ibb.co/f47gT89/male-therapist-talking-couple-during-marriage-counseling-office.jpg",
+        "name": " Marriage Counseling ",
+        "title": "Confidential counseling to address relationship issues",
+        "description":"Our Marriage Counseling Services provide a confidential and supportive space for couples seeking guidance and resolution for their relationship challenges. Our licensed therapists specialize in relationship dynamics, conflict resolution, and emotional well-being. Through personalized counseling sessions, we help you identify and address issues, improve communication, and work toward a more harmonious and fulfilling marriage. Reconnect with your partner and find solutions to your marriage struggles with our professional support",
         "price": 149.99
       },
       {
         "id": 6,
-        "image": "https://onelove.catanisthemes.com/wp-content/uploads/2017/02/img-service_13.jpg",
-        "name": "Videographers",
-        "title": "Cinematic Memories: Event Videographers Services",
-        "description": "Capture the magic of your special moments with our professional event videography services. At Cinematic Memories, we specialize in turning your events into unforgettable stories on film. Whether it's a wedding, corporate event, birthday party, or any other occasion, our team of skilled videographers is dedicated to creating stunning and timeless videos that you'll cherish forever. With state-of-the-art equipment and a passion for storytelling, we bring your event to life through the lens. Let us be a part of your journey and transform your moments into cinematic masterpieces. Contact us today to book your videography experience with Cinematic Memories."       ,
+        "image": "https://i.ibb.co/7QSvyN6/side-view-happy-couple-getting-married.jpg",
+        "name": "Renewal of Vows Ceremonies",
+        "title": "Celebrate your enduring love with a meaningful vow renewal ceremony.",
+        "description": "Celebrate your enduring love with a heartfelt Renewal of Vows Ceremony. Whether you're marking a milestone anniversary or simply reaffirming your commitment, our team will create a memorable and meaningful ceremony for you. Choose from a variety of themes and settings to customize your vow renewal experience. Let us help you celebrate your journey together and strengthen your bond for years to come."       ,
         "price": 1000.00
       }
       
