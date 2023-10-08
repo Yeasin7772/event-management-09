@@ -15,10 +15,10 @@ console.log(greetign);
 - B: `ReferenceError: greetign is not defined`
 - C: `undefined`
 
-<details><summary><b>B</b></summary>
+<details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B 
 
 <i>The error you will encounter is reference error because greetign is not defined .Because you misspelled the variable that you wrote first</i>
 
@@ -40,10 +40,10 @@ sum(1, "2");
 - C: `"12"`
 - D: `3`
 
-<details><summary><b>C</b></summary>
+<details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C 
 
 <i>This is a logical error in JavaScript because you gave a number and a string</i>
 
@@ -66,10 +66,10 @@ console.log(food);
 - C: `['🍝', '🍕', '🍫', '🥑', '🍔']`
 - D: `ReferenceError`
 
-<details><summary><b>A</b></summary>
+<details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A 
 
 <i>The food array still contains the original elements and it has not been modified by the previous operations.that why answer is A </i>
 
@@ -91,10 +91,10 @@ console.log(sayHi());
 - C: `Hi there, null`
 - D: `ReferenceError`
 
-<details><summary><b>B</b></summary>
+<details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B 
 
 <i>when you call the sayHi function without passing an argument, the name parameter inside the function is not  assigned a value so the answer is undefined</i>
 
@@ -119,10 +119,10 @@ console.log(count);
 - C: 3
 - D: 4
 
-<details><summary><b>C</b></summary>
+<details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C 
 
 <i>There are the four elements of the array use forEach in array method. The elements of the array are re-based using conditionals to check whether each element is true and sum 1 but is not working</i>
 

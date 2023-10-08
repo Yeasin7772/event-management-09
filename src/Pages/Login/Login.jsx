@@ -14,12 +14,15 @@ const Login = () => {
     const navigate = useNavigate()
     console.log('this is location', location);
 
+   
+
 
     const handelLogin = (e) => {
         e.preventDefault()
         const email = e.target.email.value;
         const password = e.target.password.value
         console.log(email, password);
+        setMatch('')
         login(email, password)
             .then(result => {
                 console.log(result.user);
@@ -27,7 +30,7 @@ const Login = () => {
             })
             .catch(error => {
                 console.error(error);
-                setMatch('password do no match')
+                setMatch(error.message)
             })
     }
     return (
@@ -70,7 +73,7 @@ const Login = () => {
                         </div>
 
                         <div className="">
-                            <button  onClick={() => googleLogin()} className="btn w-full">
+                            <button onClick={() => googleLogin()} className="btn w-full">
                                 <FaGoogle className="text-blue-700"></FaGoogle>
                                 Login with Google
                             </button>

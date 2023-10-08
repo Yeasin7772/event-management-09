@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
+import Navbar from "../../components/Navbar/Navbar";
 
 
 const Register = () => {
@@ -12,6 +13,7 @@ const Register = () => {
 
     const handelRegister = (e) => {
         e.preventDefault()
+        const image = e.target.image.value;
         const name = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value
@@ -33,7 +35,7 @@ const Register = () => {
         createUser(email, password)
         .then(result => {
             console.log(result.user);
-            handleUpdateProfile(name)
+            handleUpdateProfile(name,image)
                 .then(() => {
                     setRegisterSuccess('user created successfully.')
                    
@@ -48,6 +50,7 @@ const Register = () => {
     }
     return (
         <div>
+             <Navbar></Navbar>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left">
@@ -61,6 +64,12 @@ const Register = () => {
                                     <span className="label-text">Name</span>
                                 </label>
                                 <input name="name" required type="text" placeholder="Enter You Name" className="input input-bordered" />
+                            </div>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">PhotoURL</span>
+                                </label>
+                                <input name="image" required type="Image URL" placeholder="PhotoURL" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
