@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 
 const WeddingDetalisCard = ({ wedding }) => {
     const { image, description, title } = wedding || {}
-    console.log(wedding);
+    //console.log(wedding);
     return (
 
         <div>
@@ -11,8 +11,8 @@ const WeddingDetalisCard = ({ wedding }) => {
             <div className="mt-10">
                
 
-                <div className="card card-compact w-[300px] md:w-96  bg-base-100 shadow-xl">
-                    <figure><img className="w-[300px] md:w-96" src={image} alt="Shoes" /></figure>
+                <div className="card card-compact  bg-base-100 shadow-xl">
+                    <figure><img className="h-[80vh] w-full" src={image} alt="Shoes" /></figure>
                     <div className="card-body">
 
                         <p>{description}</p>

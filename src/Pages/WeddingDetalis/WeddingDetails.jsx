@@ -5,9 +5,9 @@ import Navbar from "../../components/Navbar/Navbar";
 
 const WeddingDetails = () => {
     const [wedding, setWedding] = useState()
-    console.log(wedding);
+   // console.log(wedding);
     const {id} = useParams()
-    console.log(id);
+    //console.log(id);
 
 
     const weddings = useLoaderData()

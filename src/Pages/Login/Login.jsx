@@ -12,10 +12,9 @@ const Login = () => {
     const { login, googleLogin } = useContext(AuthContext)
     const location = useLocation()
     const navigate = useNavigate()
-    console.log('this is location', location);
+   // console.log('this is location', location);
 
-   
-
+  
 
     const handelLogin = (e) => {
         e.preventDefault()
@@ -30,8 +29,10 @@ const Login = () => {
             })
             .catch(error => {
                 console.error(error);
-                setMatch(error.message)
+                setMatch('Invalidate Password')
             })
+
+          
     }
     return (
         <div>

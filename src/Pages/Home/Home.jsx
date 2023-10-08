@@ -39,7 +39,7 @@ const Home = () => {
                 </div>
             </div>
             <section className="mt-20 mb-20">
-                <div className="sm:flex-row md:flex justify-between mt-5 mb-5">
+                <div className="sm:flex-row md:flex justify-between mt-5 mb-5 gap-5">
                     <div className="space-y-6" data-aos="fade-right">
                         <h1 className="text-3xl font-semibold">Plan Your Wedding With 3 Steps</h1>
                         <p className="text-xl font-bold">Maecenas et lorem sit amet arcu commodo ornare.

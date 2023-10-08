@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 import Navbar from "../../components/Navbar/Navbar";
@@ -8,8 +8,9 @@ const Register = () => {
 
     const [registerError, setRegisterError] = useState('')
     const [registerSuccess, setRegisterSuccess] = useState('')
+    const navigate = useNavigate()
 
-    const { createUser,handleUpdateProfile } = useContext(AuthContext)
+    const { createUser, handleUpdateProfile } = useContext(AuthContext)
 
     const handelRegister = (e) => {
         e.preventDefault()
@@ -31,17 +32,18 @@ const Register = () => {
             return
         }
 
-        
-        createUser(email, password)
-        .then(result => {
-            console.log(result.user);
-            handleUpdateProfile(name,image)
-                .then(() => {
-                    setRegisterSuccess('user created successfully.')
-                   
 
-                })
-               
+        createUser(email, password)
+            .then(result => {
+                console.log(result.user);
+                navigate('/')
+                handleUpdateProfile(name, image)
+                    .then(() => {
+                        setRegisterSuccess('User created successfully.')
+
+
+                    })
+
             })
             .catch(error => {
                 console.error(error);
@@ -50,7 +52,7 @@ const Register = () => {
     }
     return (
         <div>
-             <Navbar></Navbar>
+            <Navbar></Navbar>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left">
@@ -69,7 +71,7 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text">PhotoURL</span>
                                 </label>
-                                <input name="image" required type="Image URL" placeholder="PhotoURL" className="input input-bordered" />
+                                <input name="image" required type="Image URL" placeholder="Image URL" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">

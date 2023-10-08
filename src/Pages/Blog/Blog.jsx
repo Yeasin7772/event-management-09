@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 
 
@@ -147,6 +148,8 @@ const Blog = () => {
 
             </div>
         </div>
+
+        <Footer></Footer>
        </div>
     );
 };
