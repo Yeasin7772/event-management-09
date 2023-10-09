@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 import Navbar from "../../components/Navbar/Navbar";
+import swal from 'sweetalert';
 
 
 const Register = () => {
@@ -23,12 +24,18 @@ const Register = () => {
 
         setRegisterError('')
         setRegisterSuccess('')
+       // const specialCharacter = /[!@#$%^&*()_+{}\[\]:;<>,.?~\\-=]/;
 
         if (password.length < 6) {
             setRegisterError('Password is less than 6 characters or longer')
             return
         } else if (!/[A-Z]/.test(password)) {
-            setRegisterError('password should not contain special characters.')
+            setRegisterError('password should not contain special capital characters.')
+            return
+        } 
+       
+        else if (!/[@#$%^&+=!]/.test(password)) {
+            setRegisterError('password should not contain special character')
             return
         }
 
@@ -39,6 +46,8 @@ const Register = () => {
                 navigate('/')
                 handleUpdateProfile(name, image)
                     .then(() => {
+                        swal("Good job!", "User created successfully", "success");
+
                         setRegisterSuccess('User created successfully.')
 
 
@@ -71,7 +80,7 @@ const Register = () => {
                                 <label className="label">
                                     <span className="label-text">PhotoURL</span>
                                 </label>
-                                <input name="image" required type="Image URL" placeholder="Image URL" className="input input-bordered" />
+                                <input name="image"  type="Image URL" placeholder="Image URL" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">

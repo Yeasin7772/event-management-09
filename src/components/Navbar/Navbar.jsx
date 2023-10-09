@@ -28,6 +28,7 @@ const Navbar = () => {
         <li className="text-xl"><NavLink to='/'>Home</NavLink></li>
         <li className="text-xl"><NavLink to='/pages'>Pages</NavLink></li>
         <li className="text-xl"><NavLink to='/blog'>Blog</NavLink></li>
+        <li className="text-xl"><NavLink to='/About'>About Us</NavLink></li>
 
 
     </>

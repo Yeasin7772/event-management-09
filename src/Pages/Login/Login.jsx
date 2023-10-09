@@ -3,11 +3,12 @@ import { FaGoogle } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
 import Navbar from "../../components/Navbar/Navbar";
+import swal from "sweetalert";
 
 
 const Login = () => {
 
-    const [match, setMatch] = useState('')
+   // const [match, setMatch] = useState('')
 
     const { login, googleLogin } = useContext(AuthContext)
     const location = useLocation()
@@ -21,15 +22,18 @@ const Login = () => {
         const email = e.target.email.value;
         const password = e.target.password.value
         console.log(email, password);
-        setMatch('')
+       // setMatch('')
         login(email, password)
             .then(result => {
                 console.log(result.user);
+
                 navigate(location?.state ? location.state : '/')
+                swal("Good job!", "Login successfully", "success");
             })
             .catch(error => {
                 console.error(error);
-                setMatch('Invalidate Password')
+                //setMatch('Invalidate Password')
+                 swal("Error!", "Invalidate Password","error");
             })
 
           
@@ -68,9 +72,9 @@ const Login = () => {
                         </form>
 
                         <div className="text-center">
-                            {
+                            {/* {
                                 match && <p className="text-red-500">{match}</p>
-                            }
+                            } */}
                         </div>
 
                         <div className="">

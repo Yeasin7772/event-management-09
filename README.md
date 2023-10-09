@@ -8,7 +8,5 @@
 
 
 ## 🔗 Live Link 
-https://wedding-planning-auth.web.app/register
 
-
-
+https://wedding-planning-auth.web.app
